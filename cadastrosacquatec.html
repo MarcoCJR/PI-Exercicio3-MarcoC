@@ -1,0 +1,64 @@
+<!-- Marco Antonio Campos Junior - 03221006 -->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da Acquatec</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="titulo">Acquatec</h1>
+
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>Sobre nós</li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>Suporte</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="card">
+                <h1>Crie o seu cadastro</h1>
+
+                <h4>Nome Completo</h4>
+                <input type="text">
+
+                <h4>Data de nascimento</h4>
+                <input type="number" placeholder="__/__/____" maxlength="8">
+                <!-- Tentei colocar o type no formato date, mas o input ficava muito menor que os outros e eu não sabia como ajustar o tamanho.-->
+                <h4>CPF</h4>
+                <input type="number" placeholder="123.456.789-00" maxlength="14">
+
+                <h4>Telefone</h4>
+                <input type="tel" placeholder="(__)_____-____">
+
+                <h4>E-mail:</h4>
+                <input type="email" placeholder="exemplo@gmail.com">
+
+                <h4>Senha:</h4>
+                <input type="password" placeholder="********">
+                <button class="btn">Cadastrar</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
